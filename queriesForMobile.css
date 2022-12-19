@@ -1,0 +1,228 @@
+/* FOR SMARTPHONES */
+
+@media only screen and (max-width: 450px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .nav,
+  .nav_ {
+    display: none;
+  }
+
+  .btn1,
+  .btn2 {
+    padding: 1.2vw 3vw;
+    top: 35vw;
+  }
+  .btn1:hover,.btn2:hover{
+  padding: 1.5vw 4vw;
+  }
+
+  /* Style The Dropdown Button */
+  .dropbtn {
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    right: -10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .menuButton {
+    width: 4.8vw;
+    height: 5vw;
+  }
+  .logo {
+    width: 20vw;
+    /* vertical-align: middle; */
+    top: 0.5vw;
+  }
+  .navbar {
+    padding: 4vw 0;
+  }
+  .nav_ {
+    font-size: 4.7vw;
+    height: 6vw;
+    padding: 0 5.5vw;
+  }
+  .banner {
+    width: 102vw;
+    height: 90vw;
+    object-fit: cover;
+  }
+  .bannerh3 {
+    font-size: 6vw;
+    left: 13.6vw;
+  }
+  .bannerh1 {
+    font-size: 11vw;
+    left: 6vw;
+  }
+  .bannerp {
+    font-size: 4.2vw;
+    line-height: 5.5vw;
+    top: 43vw;
+  }
+  .bannerb {
+    bottom: 7vw;
+    font-size: 4vw;
+    left: 26vw;
+  }
+  main {
+    padding: 8vw;
+    width: 86vw;
+  }
+  .point_one_h2 {
+    font-size: 7vw;
+  }
+  .point_one_p {
+    font-size: 4vw;
+  }
+  .headingOfFeatures {
+    font-size: 10vw;
+  }
+  .features {
+    flex-direction: column;
+  }
+  .feature {
+    width: 76vw;
+    height: 100vw;
+    padding: 6vw 7vw;
+    margin: 6vw 2vw;
+  }
+  .featureh3,
+  .readMore {
+    font-size: 7vw;
+    line-height: 8vw;
+  }
+  .featurep {
+    font-size: 5vw;
+    line-height: 6vw;
+  }
+  #iconForFeatures {
+    font-size: 13vw;
+  }
+  .readMore {
+    left: 29vw;
+    bottom: 7vw;
+  }
+
+  .headingOfMoreFeatures {
+    font-size: 11vw;
+  }
+  .moreFp {
+    font-size: 3.7vw;
+  }
+
+  .moreFeatures {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .featureMore {
+    width: 70vw;
+    height: 100vw;
+    margin-left: 10vw;
+  }
+
+  .featureMoreh2 {
+    font-size: 7vw;
+    margin-top: 20vw;
+  }
+
+  .featureMorep {
+    font-size: 4.5vw;
+    text-align: center;
+    margin-top: 5vw;
+  }
+  .satsf {
+    position: absolute;
+    width: 15vw;
+    left: 44vw;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+  .logo2 {
+    display: none;
+  }
+  .joinUs {
+    margin: 7vw 0 5vw 30vw;
+    font-size: 8vw;
+  }
+
+  .join-us-button {
+    width: 10vw;
+    height: 10vw;
+    font-size: 5vw;
+    margin-left: 14vw;
+    border-radius: 2vw;
+    transition: opacity 0.3s;
+  }
+
+  .join-us-button:hover {
+    opacity: 0.8;
+  }
+
+  .footerheading {
+    font-size: 7vw;
+  }
+
+  .footerPartTwo {
+    margin-top: 9vw;
+  }
+
+  .reachUsP {
+    font-size: 4vw;
+  }
+  .footerPartThree {
+    margin-top: 9vw;
+    margin-left: 7.5vw;
+    padding-bottom: 10vw;
+  }
+
+  .discussP {
+    font-size: 4vw;
+  }
+
+  hr,
+  .copyright {
+    display: block;
+  }
+
+  .copyright {
+    text-align: center;
+    font-size: 2.5vw;
+    color: rgb(95, 93, 93);
+  }
+}

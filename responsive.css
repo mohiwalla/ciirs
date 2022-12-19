@@ -1,0 +1,64 @@
+* {
+  margin: 1vw 0;
+  padding: 0;
+}
+@media only screen and (max-width: 600px){
+  .btn1,
+  .btn2 {
+    font-size: 200px;
+    color: white;
+    background: gray;
+    border: none;
+    border-radius: 7px;
+    position: absolute;
+    padding: 70px 200px;
+    cursor: pointer;
+    transition: padding 0.3s, opacity 0.3s;
+  }
+  .btn1 {
+    top: 50vw;
+    left: 5vw;
+  }
+  .btn2 {
+    top: 50vw;
+    right: 5vw;
+  }
+}
+.container {
+  width: 100vw;
+  display: flex;
+}
+.banner {
+  height: 30vw;
+  margin: 0vw 15vw;
+  display: none;
+  width: 90vw;
+}
+#img1 {
+  display: block;
+}
+.btn1,
+.btn2 {
+  font-size: 20px;
+  color: white;
+  background: gray;
+  border: none;
+  border-radius: 7px;
+  position: absolute;
+  padding: 7px 20px;
+  cursor: pointer;
+  transition: padding 0.3s, opacity 0.3s;
+}
+.btn1:hover,
+.btn2:hover {
+  padding: 10px 26px;
+  opacity: 0.7;
+}
+.btn1 {
+  top: 15vw;
+  left: 5vw;
+}
+.btn2 {
+  top: 15vw;
+  right: 5vw;
+}

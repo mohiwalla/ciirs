@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="fav_16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Development | Web Design</title>
+    <style>
+      * {
+        overflow-x:hidden;
+        margin: 10px 0;
+        padding: 0;
+      }
+      
+    </style>
+    <script src="assignment.js"></script>
+    <link rel="stylesheet" href="assignment.css" />
+    <link rel="stylesheet" href="mediaqueriesAssignment.css">
+    <link rel="stylesheet" href="queriesForMobile.css">
+  </head>
+  <body>
+    <div style="display:flex; justify-content:center;" class="registerCon">
+      <div id="popup" class="login">
+        <form onsubmit="return validate()">
+            <label for="firstname">First Name</label>
+            <input required placeholder="First Name" class="popupLogin" type="text" id="firstname" autofocus>
+            <label for="lastname">Last Name</label>
+            <input required placeholder="Last Name" class="popupLogin" type="text" id="lastname" >
+            <label for="E-mail">E-mail</label>
+            <input required placeholder="example@gmail.com" class="popupLogin" type="text" id="Email" >
+            <label for="password">Password</label>
+            <input required class="popupLogin" type="password" id="password" >
+            <label for="confirm">Confirm Password</label>
+            <input required class="popupLogin" type="password" id="confirm" >
+            <input class="popupLogin popSubmit" type="submit">
+        </form>
+    </div>
+  </div>
+    <header>
+      <nav class="navbar">
+        <img src="logo.png" alt="logo" class="logo" />
+        <button class="nav">Home</button>
+        <button class="nav">About Us</button>
+        <button class="nav">Our Services</button>
+        <button class="nav">Why CIIRS</button>
+        <button class="nav">Pricing</button>
+        <button class="nav">Portfolio</button>
+        <button onclick="login()" class="nav">Register</button>
+        <button class="nav_">Call Us</button>
+        <div class="dropdown">
+          <button class="dropbtn"><img class="menuButton" src="menu button.png" alt=""></button>
+          <div class="dropdown-content">
+            <a href="https://ciirs.com/">Home</a>
+            <a href="https://ciirs.com/about/">About Us</a>
+            <a href="#">Our Services</a>
+            <a href="https://ciirs.com/why-ciirs/">Why CIIRS</a>
+            <a href="https://ciirs.com/pricing/">Pricing</a>
+            <a href="https://ciirs.com/portfolio/">Portfolio</a>
+            <a onclick="login()">Register</a>
+            <a href="tel:918847314532">Call Us</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="bannerdiv">
+      <!-- <img src="Capture111.PNG" alt="" class="banner" /> -->
+    <button onclick="next()" class="btn2">❯</button>
+    <button onclick="back()" class="btn1">❮</button>
+    <div class="container">
+      <img src="/banner 1.jpg" class="banner" id="img1" />
+      <img src="/banner 2.jpg" class="banner" id="img2" />
+      <img src="/banner 3.jpg" class="banner" id="img3" />
+      <img src="/banner 4.jpg" class="banner" id="img4" />
+      <img src="/banner 5.jpg" class="banner" id="img5" />
+      <img src="/banner 6.jpg" class="banner" id="img6" />
+      <img src="/banner 7.jpg" class="banner" id="img7" />
+      <img src="/banner 8.jpg" class="banner" id="img8" />
+      <img src="/banner 9.jpg" class="banner" id="img9" />
+      <img src="/banner 10.jpg" class="banner" id="img10" />
+      <img src="/banner 11.jpg" class="banner" id="img11" />
+      <img src="/banner 12.jpg" class="banner" id="img12" />
+      <img src="/banner 13.jpg" class="banner" id="img13" />
+      <img src="/banner 14.jpg" class="banner" id="img14" />
+      <img src="/banner 15.jpg" class="banner" id="img15" />
+      <img src="/banner 16.jpg" class="banner" id="img16" />
+      <img src="/banner 17.jpg" class="banner" id="img17" />
+      <img src="/banner 18.jpg" class="banner" id="img18" />
+      <img src="/banner 19.jpg" class="banner" id="img19" />
+      <img src="/banner 20.jpg" class="banner" id="img20" />
+    </div>
+      <div class="bannertext">
+        <h3 class="bannerh3">One Stop Company for All</h3>
+        <h1 class="bannerh1">WEB SOLUTIONS</h1>
+        <p class="bannerp">
+          Delivering Responsive Web Designs, Website Development and Mobile Apps
+          Since 2019. Our Network Of 1000+ Happy Clients Is Broadening In Over
+          20+ Countries. Let us Convert Your Idea Into Reality.
+        </p>
+        <a href="https://ciirs.com/contact-us/">
+          <button class="bannerb">Get Free Consultation</button>
+        </a>
+      </div>
+    </div>
+    <main>
+      <div class="point_one">
+        <h2 class="point_one_h2">About Us</h2>
+        <img src="line end.PNG" style="width:6vw;" alt="" />
+        <p class="point_one_p">
+          <strong>CIIRS </strong> is a team of professionals, who converts
+          amazing creativity into existence. Since 2019, we have
+          delivered<strong> numerous projects </strong> to our customers all
+          around the world and helped them to grow their businesses through our
+          hard work and creativity. Our experienced team of designers,
+          developers, and search engine optimizers would love to provide you
+          with the latest solutions available in the fields of
+          <strong>website development</strong> and <strong>SEO.</strong>
+        </p>
+      </div>
+
+      <div class="point_one">
+        <h2 class="point_one_h2">Our Mission</h2>
+        <img src="line end.PNG" style="width:6vw;"  />
+        <p class="point_one_p">
+            Our mission is to offer ideas that encourage organic traffic,
+            through a cutting-edge design and developing futuristic features in
+            your website. All this is possible with the help of our high-quality
+            designing, developing, and SEO services.</strong
+          >
+        </p>
+      </div>
+
+      <div class="point_one">
+        <h2 class="point_one_h2">Our Vision</h2>
+        <img src="line end.PNG" style="width:6vw;"  />
+        <p class="point_one_p">
+          Our plan to boost your business and help it to touch new heights of
+          marketing with the best alternatives in Web Development. In our
+          journey of 11+ business years, we have understood that every client
+          has unique requirements and our excellent relationship with clients
+          reflects our work quality.
+        </p>
+      </div>
+    </main>
+    <h2 class="headingOfFeatures">Services We Can Provide</h2>
+    <div style="text-align: center;">
+      <img src="line end white.PNG" style="width:6vw;" />
+    </div>
+    <div class="features">
+        <div class="feature">
+          <div style=" text-align: center;">
+            <i class="fa fa-laptop" id="iconForFeatures"></i>
+          </div>
+            <h3 style="margin-top:1.7vw;" class="featureh3">Web Design & Development</h3>
+            <p class="featurep">Bring life to your website with our latest designs and technology by highly skilled staff. They are capable of developing advanced features and 100% custom designs, which will convince people to trade with you and higher growth of your business.</p>
+            <h3 class="readMore">Read More</h3>
+        </div>
+
+        <div class="feature">
+          <div style=" text-align: center;">
+            <i class="fa fa-inbox" id="iconForFeatures"></i>
+          </div>
+          <img src="" alt="" class="featuresImg">
+            <h3 class="featureh3">Zoho</h3>
+            <p class="featurep">Convert your website's visitors into customers with our Zoho services. We provide CRM (Drives more sales in less time), Creator (Custom app builder), Sales IQ, Desk, Forms, Contact Manager, Sales Inbox, Motivator, Bookings.</p>
+            <h3 class="readMore">Read More</h3>
+        </div>
+
+
+        <div class="feature">
+          <div style=" text-align: center;">
+            <i class="fa fa-mobile" id="iconForFeatures"></i>
+          </div>
+          <img src="" alt="" class="featuresImg">
+            <h3 class="featureh3">Mobile Development</h3>
+            <p class="featurep">We develop 100% custom mobile apps with the latest technology and tools. Our mobile development team provides IOS and Android-based services and tries to meet the needs of our customers no matter how complex they are.</p>
+            <h3 class="readMore">Read More</h3>
+        </div>
+
+
+        <div class="feature">
+          <div style=" text-align: center;">
+            <i class="fa fa-search" id="iconForFeatures"></i>
+          </div>
+          <img src="" alt="" class="featuresImg">
+            <h3 class="featureh3">Search Engine Optimization</h3>
+            <p class="featurep">SEO drives organic traffic to your website from Google and other search engines which help you to make more new customers and rank your website to the top of search results with our remarkable SEO strategies.</p>
+            <h3 class="readMore">Read More</h3>
+        </div>
+
+
+        <div class="feature">
+          <div style=" text-align: center;">
+            <i class="fa fa-link" id="iconForFeatures"></i>
+          </div>
+          <img src="" alt="" class="featuresImg">
+            <h3 class="featureh3">Link Building</h3>
+            <p class="featurep">Link building is the main ranking factor that the search engines use to determine the authority of your website. We built high-quality links which are responsible for the faster ranking of your website.</p>
+            <h3 class="readMore">Read More</h3>
+        </div>
+
+
+        <div class="feature">
+          <div style=" text-align: center;">
+            <i class="fa fa-laptop" id="iconForFeatures" ></i>
+          </div>
+          <img src="" alt="" class="featuresImg">
+            <h3 class="featureh3">Content Development </h3>
+            <p class="featurep">Content is an essential part of your website. It makes your website searchable and shows your reliability. As high-quality content and engaging presentation are necessary to develop trust in the readers.</p>
+            <h3 class="readMore">Read More</h3>
+        </div>
+
+    </div>
+    <div style="background-color:rgb(54,54,54);padding-top:4vw;" class="headingformorefeatures">
+
+      <h1 class="headingOfMoreFeatures" >Why Ciirs?</h1>
+      <div style="text-align:center; margin-top: 0.5vw;"><img src="line end black.PNG" style="width:6vw;" /></div>
+      <p class="moreFp">One-stop Company for all web solutions with High Quality at reasonable prices.</p>
+    </div>
+    <div class="moreFeatures">
+
+        <div class="featureMore">
+          <img src="/Satisfaction.png" alt="" class="satsf" />
+          
+          <h2 class="featureMoreh2">11+ Years of Experience</h2>
+          <div class="divformorefeatures">
+            <p class="featureMorep">
+              In our experience of 11+ years, we have dealt with worldwide
+              customers from different industries. In this long period, we have
+              achieved several technical expertise and have developed methods to
+              complete project of any size and complexity.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="featureMore">
+          <img style="padding:1vw 0 6vw;" src="/team.png" alt="" class="satsf" />
+          
+          
+          <h2 class="featureMoreh2">Experienced Team</h2>
+          <div class="divformorefeatures">
+            <p class="featureMorep">
+              Our team of highly experienced and skilled professionals prefers the best technology for the better growth of your business. They are capable of handling any project based on website development, web design or SEO to meet the expectations of the customers.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="featureMore">
+          <img src="/web_.png" alt="" class="satsf" />
+          
+          <h2 class="featureMoreh2">One-Stop for All Web Solutions</h2>
+          <div class="divformorefeatures">
+            <p class="featureMorep">
+              Our company provide every web services like web design, Website development or digital marketing. You can depend on us for all your requirements as we have the required experience to do all that.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="featureMore">
+          <img src="/price.png" alt="" class="satsf" />
+          
+          <h2 class="featureMoreh2">Reasonable Pricing</h2>
+          <div class="divformorefeatures">
+            <p class="featureMorep">
+              CIIR provides a clear price for result-oriented services. We aim at delivering high-quality work at very reasonable prices and ensure that our customers get high return on what they are investing.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="featureMore">
+          <img src="/quality.png" alt="" class="satsf" />
+          
+          <h2 class="featureMoreh2">Work Quality</h2>
+          <div class="divformorefeatures">
+            <p class="featureMorep">
+              Our work quality reflects our long-time relationship with customers who are satisfied with our excellent work quality.
+              
+            </p>
+          </div>
+        </div>
+
+
+        <div class="featureMore">
+          <img src="/Satisfaction.png" alt="" class="satsf" />
+          
+          <h2 class="featureMoreh2">Customer Satisfaction</h2>
+          <div class="divformorefeatures">
+            <p class="featureMorep">
+              Customer satisfaction is at the priority in CIIR. We have delivered numerous projects with 99% customer satisfaction.
+            </p>
+          </div>
+        </div>
+
+    </div>
+    <footer>
+      <div class="footerPartOne fdiv">
+      <a href="https://www.ciirs.com">
+        <img src="logo2.png" alt="logo" class="logo2" />
+      </a>
+        <h2 class="joinUs">Join Us</h2>  
+        <a href="https://www.facebook.com/ciirsolutions/" target="_blank"><button class="facebook-button join-us-button"><i class="fa fa-facebook" aria-hidden="true"></i></button></a>
+        <a href="mailto:info@ciirsglobal.com" target="_blank"><button class="join-us-button mail-button"><i class="fa fa-envelope" aria-hidden="true"></i></button></a>
+        <a href="https://www.linkedin.com/in/ciirs-solutions-3a7043208" target="_blank"><button class="linkedin-button join-us-button"><i class="fa fa-linkedin" aria-hidden="true"></i></button></a>
+      </div>
+
+      <div class="footerPartTwo fdiv">
+        <h3 class="footerheading reachUs">Reach Us</h3>
+        <p class="reachUsP">Plot No. #2323, First Floor,</p>
+        <p class="reachUsP">Arya Samaj Rd, Rajpura,</p>
+        <p class="reachUsP">Punjab 140401</p>
+      </div>
+      <div class="footerPartThree fdiv">
+        <h3 class="footerheading discuss">Discuss With Us</h3>
+        <p class="disucssP">Have a project or a question?</p>
+        <p class="discussP" >We'd love to hear from you.</p>
+        <h3 class="footerheading discuss">Contact Us  <i style="cursor:pointer;" class="fa fa-chevron-circle-right"></i></h3>
+      </div>
+      <hr>
+      <div  class="copyright">Copyright © 2022 CIIRS - Convert Ideas Into Reality. All Rights Reserved.</div>
+    </footer>
+  </body>
+</html>
