@@ -4,7 +4,7 @@
   font-family: "Noto Sans", sans-serif;
   overflow:hidden;
 }
-body{
+body, html{
   overflow:scroll;
 }
 /* *::selection{background: rgba(0,0,0,0);} */
